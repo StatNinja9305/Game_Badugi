@@ -1,0 +1,137 @@
+### Game Master: Chip Unit Is Now 1.0
+### ### ### States Before Selection start
+### ### Deck start
+### c01-c02-c03-c04-c05-c06-c07-c08-c09-c10-c11-c12-c13
+### d01-d02-d03-d04-d05-d06-d07-d08-d09-d10-d11-d12-d13
+### h01-h02-h03-h04-h05-h06-h07-h08-h09-h10-h11-h12-h13
+### s01-s02-s03-s04-s05-s06-s07-s08-s09-s10-s11-s12-s13
+### ### Deck end
+### ### Graveyard start
+### ### <No Card>
+### ### Graveyard end
+### ### Players start
+### Player-01 [ <No Card> ] : {'stack': 20, 'cards_thrown': [], 'history': []}
+### Player-02 [ <No Card> ] : {'stack': 20, 'cards_thrown': [], 'history': []}
+### Player-03 [ <No Card> ] : {'stack': 20, 'cards_thrown': [], 'history': []}
+### Player-04 [ <No Card> ] : {'stack': 20, 'cards_thrown': [], 'history': []}
+### Player-05 [ <No Card> ] : {'stack': 20, 'cards_thrown': [], 'history': []}
+### ### Players end
+### ### ### States Before Selection end
+
+### Game Master: Selection Started.
+### Game Master: Card Distribution Finished.
+### ### Betting Phase Started (Selection)
+### Game Master: Player-01 did "small_blind" with 0.5. Current stack: 19.5
+### Game Master: Game: {'pot': 0, 'field': 0.5, 'total_raise_count': 0, 'raise_standard': 1.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-02 did "big_blind" with 1.0. Current stack: 19.0
+### Game Master: Game: {'pot': 0, 'field': 1.5, 'total_raise_count': 0, 'raise_standard': 1.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-03 did "raise" with 2.0. Current stack: 18.0
+### Game Master: Game: {'pot': 0, 'field': 3.5, 'total_raise_count': 1, 'raise_standard': 2.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-04 did "call" with 2.0. Current stack: 18.0
+### Game Master: Game: {'pot': 0, 'field': 5.5, 'total_raise_count': 1, 'raise_standard': 2.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-05 did "raise" with 3.0. Current stack: 17.0
+### Game Master: Game: {'pot': 0, 'field': 8.5, 'total_raise_count': 2, 'raise_standard': 3.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-01 did "raise" with 4.0. Current stack: 15.5
+### Game Master: Game: {'pot': 0, 'field': 12.5, 'total_raise_count': 3, 'raise_standard': 4.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-02 did "call" with 4.0. Current stack: 15.0
+### Game Master: Game: {'pot': 0, 'field': 16.5, 'total_raise_count': 3, 'raise_standard': 4.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-03 did "raise" with 5.0. Current stack: 13.0
+### Game Master: Game: {'pot': 0, 'field': 21.5, 'total_raise_count': 4, 'raise_standard': 5.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-04 did "call" with 5.0. Current stack: 13.0
+### Game Master: Game: {'pot': 0, 'field': 26.5, 'total_raise_count': 4, 'raise_standard': 5.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04', 'Player-05']}
+### Game Master: Player-05 did "fold". Current stack: 17.0
+### Game Master: Game: {'pot': 0, 'field': 26.5, 'total_raise_count': 4, 'raise_standard': 5.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-01', 'Player-02', 'Player-03', 'Player-04']}
+### Game Master: Player-01 did "fold". Current stack: 15.5
+### Game Master: Game: {'pot': 0, 'field': 26.5, 'total_raise_count': 4, 'raise_standard': 5.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-02', 'Player-03', 'Player-04']}
+### ### Betting Phase finished by call. Player actions: ['Player-02(call)', 'Player-03(raise)', 'Player-04(call)']
+### Game Master: Moving 26.5 chips in the field to the pot (0)
+### Game Master: Current pot (26.5)
+### ### Betting Phase Finished (Selection)
+### Game Master: Selection Finished.
+### ### ### States After Selection start
+### ### Deck start
+### c04-c05-c11-c12
+### d01-d02-d03-d04-d05-d06-d11-d12
+### h01-h02-h03-h04-h05-h07-h09-h13
+### s01-s02-s03-s04-s05-s06-s07-s08-s09-s10-s12-s13
+### ### Deck end
+### ### Graveyard start
+### ### <No Card>
+### ### Graveyard end
+### ### Players start
+### Player-01 [ Ac-8c-8d-9d ] : {'stack': 15.5, 'cards_thrown': [], 'history': ['small_blind', 'raise', 'fold']}
+### Player-02 [ 2c-9c-Kd-Js ] : {'stack': 15.0, 'cards_thrown': [], 'history': ['big_blind', 'call']}
+### Player-03 [ 3c-6c-Th-Jh ] : {'stack': 13.0, 'cards_thrown': [], 'history': ['raise', 'raise']}
+### Player-04 [ Tc-Kc-7d-Qh ] : {'stack': 13.0, 'cards_thrown': [], 'history': ['call', 'call']}
+### Player-05 [ 7c-Td-6h-8h ] : {'stack': 17.0, 'cards_thrown': [], 'history': ['raise', 'fold']}
+### ### Players end
+### ### ### States After Selection end
+
+### ### Draw Phase Started (Street-2)
+### Game Master: Player-01 threw ['d09']
+### Game Master: Player-02 threw ['s11', 'c02']
+### Game Master: Player-03 threw ['c06', 'h10', 'h11']
+### Game Master: Player-04 threw ['c13', 'd07', 'c10', 'h12']
+### Game Master: Player-05 threw ['d10']
+### Game Master: Player-01 drew ['d12']
+### Game Master: Player-02 drew ['s03', 's04']
+### Game Master: Player-03 drew ['h13', 's12', 'd04']
+### Game Master: Player-04 drew ['h02', 'h05', 'h09', 'h04']
+### Game Master: Player-05 drew ['s02']
+### ### Draw Phase Finished (Street-2)
+### ### ### States After Draw (Street-2) start
+### ### Deck start
+### c04-c05-c11-c12
+### d01-d02-d03-d05-d06-d11
+### h01-h03-h07
+### s01-s05-s06-s07-s08-s09-s10-s13
+### ### Deck end
+### ### Graveyard start
+### c02-c06-c10-c13
+### d07-d09-d10
+### h10-h11-h12
+### s11
+### ### Graveyard end
+### ### Players start
+### Player-01 [ Ac-8c-8d-Qd ] : {'stack': 15.5, 'cards_thrown': ['d09'], 'history': ['small_blind', 'raise', 'fold']}
+### Player-02 [ 9c-Kd-3s-4s ] : {'stack': 15.0, 'cards_thrown': ['s11', 'c02'], 'history': ['big_blind', 'call']}
+### Player-03 [ 3c-4d-Kh-Qs ] : {'stack': 13.0, 'cards_thrown': ['c06', 'h10', 'h11'], 'history': ['raise', 'raise']}
+### Player-04 [ 2h-4h-5h-9h ] : {'stack': 13.0, 'cards_thrown': ['c13', 'd07', 'c10', 'h12'], 'history': ['call', 'call']}
+### Player-05 [ 7c-6h-8h-2s ] : {'stack': 17.0, 'cards_thrown': ['d10'], 'history': ['raise', 'fold']}
+### ### Players end
+### ### ### States After Draw (Street-2) end
+
+### ### Betting Phase Started (Street-2)
+### Game Master: Player-02 did "fold". Current stack: 15.0
+### Game Master: Game: {'pot': 26.5, 'field': 0, 'total_raise_count': 0, 'raise_standard': 1.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-03', 'Player-04']}
+### Game Master: Player-03 did "bet" with 1.0. Current stack: 12.0
+### Game Master: Game: {'pot': 26.5, 'field': 1.0, 'total_raise_count': 0, 'raise_standard': 1.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-03', 'Player-04']}
+### Game Master: Player-04 did "fold". Current stack: 13.0
+### Game Master: Game: {'pot': 26.5, 'field': 1.0, 'total_raise_count': 0, 'raise_standard': 1.0, 'chip_unit': 1.0, 'active_player_ids': ['Player-03']}
+### ### Betting Phase finished due to player abstention. Active player: ['Player-03']
+### Game Master: Moving 1.0 chips in the field to the pot (26.5)
+### Game Master: Current pot (27.5)
+### ### Betting Phase Finished (Street-2)
+### ### ### States After Betting (Street-2) start
+### ### Deck start
+### c04-c05-c11-c12
+### d01-d02-d03-d05-d06-d11
+### h01-h03-h07
+### s01-s05-s06-s07-s08-s09-s10-s13
+### ### Deck end
+### ### Graveyard start
+### c02-c06-c10-c13
+### d07-d09-d10
+### h10-h11-h12
+### s11
+### ### Graveyard end
+### ### Players start
+### Player-01 [ Ac-8c-8d-Qd ] : {'stack': 15.5, 'cards_thrown': ['d09'], 'history': ['small_blind', 'raise', 'fold']}
+### Player-02 [ 9c-Kd-3s-4s ] : {'stack': 15.0, 'cards_thrown': ['s11', 'c02'], 'history': ['big_blind', 'call', 'fold']}
+### Player-03 [ 3c-4d-Kh-Qs ] : {'stack': 12.0, 'cards_thrown': ['c06', 'h10', 'h11'], 'history': ['raise', 'raise', 'bet']}
+### Player-04 [ 2h-4h-5h-9h ] : {'stack': 13.0, 'cards_thrown': ['c13', 'd07', 'c10', 'h12'], 'history': ['call', 'call', 'fold']}
+### Player-05 [ 7c-6h-8h-2s ] : {'stack': 17.0, 'cards_thrown': ['d10'], 'history': ['raise', 'fold']}
+### ### Players end
+### ### ### States After Betting (Street-2) end
+
+### Game Master: Exit By Player Win: ['Player-03']
